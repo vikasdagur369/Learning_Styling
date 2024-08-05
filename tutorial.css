@@ -1,0 +1,51 @@
+/* Boiler Plate of CSS :- */
+    *{
+        margin : 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body {
+        width: 100%;
+        height: 100%;
+    }
+
+/*understanding width and height*/
+
+    /* % = it is always in the context of display, how 
+    much % of display this element will cover.
+    example= width :40% */
+    /* (px) pixels are fixed value   */
+
+/*     
+margin :- element ke side me space decide krta hai, elements ke bich me space decide krta hai.
+        :-values clockwise di jati hai. = top right bottom left(agar 4 value de to) 
+        :- agar do values de to = 1st value is top & bottom. 2nd is left and right.
+
+padding:= imaginary border inside the element. */
+
+/* understanding background image : -  */
+
+    background-image : url(xyz) 
+    background-size : cover;/* isse image poori display par fix ayegi, achi dikhegi. */
+    background-position : top;  /*agar image ka top part dekhna ho [top,bottom,center] */
+
+/* understanding position relative and position absolute  */
+
+    position : absolute; /* kisi bhi element ko position absolute dene se vo upar uth jata hai
+                        , and uske piche vale element uski jagah aajate hai. lein hme upar aya hua element dikhta hai, kyunki 
+                        vo hi sbse upar hai. sabhi element apni apni layer me upar ate hai.*/
+    
+    position : relative; /* jab element ko absolute property dete hai, to vo upar ajata hai. fir vo apne parents ke border ke bahar nikl jata hai, 
+                        , use apne parents ke border ke andr rakhne ke liye , hum uske parent ko position relative position de denge. */
+    
+
+/* understanding flex-box */
+    
+    /* jab hum kai sare div bnate hai to vo sabhi ek ke niche ek ate hai. unko ek dusre ke side me lane ke liye hum un sab div ke parent ko property dete hai. :==*/
+        display: flex;
+        /* flex ki property ko control krne ke liye hum use hai :-*/
+        
+        align-item :    /*for top to bottom (height) [center, space-between, space-around] */
+        
+        justify-content:    /* for left to right(width) [center, space-between, space-around] */  
+    

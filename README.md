@@ -49,4 +49,62 @@
 
 we can adjust size of text easily using :
 
-"text-xs"
+"text-xs","text-sm","text-base","text-lg","text-xl","text-3xl",,,,"text-nxl"
+
+## font-family :
+
+"font-sans", "font-serif", "font-mono"
+
+## font - weight:
+
+-> it will define the boldness of the fonts.
+
+"font-light"
+"font-normal"
+"font-medium"
+"font-semibold"
+"font-bold"
+
+## letter-spacing :
+
+-> it will increase the space between letters in a word.
+
+<p class="tracking-tight">
+<p class="normal">
+<p class="wide">
+<p class="widest">
+
+## text-alignment :
+
+<p class="text-left">
+<p class="text-center">
+<p class="text-right">
+
+## decoration style:
+
+<p class="underline decoration-solid">
+<p class="underline decoration-double">
+<p class="underline decoration-dotted">
+<p class="underline decoration-dashed">
+<p class="underline decoration-wavy">
+
+<p class="underline offset-2"> -> it will add 2 space b/w text and underline.
+
+## text transformation:
+
+<p class="normal-case">
+<p class="uppercase">
+
+<p class="lowercase">
+<p class="capitalize">
+
+## width all around :
+
+it will define the width of div
+<div class="w-5">
+
+<div class="w-1/2> 
+
+it will take half width of its parent div
+
+   

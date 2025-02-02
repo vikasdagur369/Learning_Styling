@@ -37,10 +37,10 @@
 
 ```html
 <div class="flex space-x-4">
-    <div>01</div>
-    <div>02</div>
-    <div>03</div>
-    <div>04</div>
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+  <div>04</div>
 </div>
 ```
 
@@ -101,7 +101,8 @@ Increases the space between letters in a word:
 <p class="underline decoration-dotted"></p>
 <p class="underline decoration-dashed"></p>
 <p class="underline decoration-wavy"></p>
-<p class="underline offset-2"></p> <!-- Adds 2 space between text and underline -->
+<p class="underline offset-2"></p>
+<!-- Adds 2 space between text and underline -->
 ```
 
 ## Text Transformation
@@ -119,7 +120,8 @@ Defines the width of a div:
 
 ```html
 <div class="w-5"></div>
-<div class="w-1/2"></div> <!-- Takes half width of its parent div -->
+<div class="w-1/2"></div>
+<!-- Takes half width of its parent div -->
 ```
 
 ## Height All Around
@@ -127,7 +129,8 @@ Defines the width of a div:
 ```html
 <div class="h-5"></div>
 <div class="h-1/2"></div>
-<div class="h-full"></div> <!-- Works similar to width -->
+<div class="h-full"></div>
+<!-- Works similar to width -->
 ```
 
 ## Min Height
@@ -135,20 +138,24 @@ Defines the width of a div:
 Sets the minimum height of an element:
 
 ```html
-<div class="min-h-full"></div> <!-- Takes minimum height of parent div -->
-<div class="max-h-5"></div> <!-- Will not take height more than 5 -->
+<div class="min-h-full"></div>
+<!-- Takes minimum height of parent div -->
+<div class="max-h-5"></div>
+<!-- Will not take height more than 5 -->
 ```
 
 ## Full Screen Height
 
 ```html
-<div class="h-screen"></div> <!-- Takes height of full screen -->
+<div class="h-screen"></div>
+<!-- Takes height of full screen -->
 ```
 
 ## Width Auto
 
 ```html
-<div class="w-auto"></div> <!-- Takes automatic width -->
+<div class="w-auto"></div>
+<!-- Takes automatic width -->
 ```
 
 ## Positions
@@ -157,7 +164,7 @@ Sets the minimum height of an element:
 
 ```html
 <div class="relative">
-    <div class="absolute"></div>
+  <div class="absolute"></div>
 </div>
 ```
 
@@ -166,9 +173,12 @@ If the parent div is relative and the child div is absolute, then it will not go
 ## Display
 
 ```html
-<span class="inline">Hello</span> <!-- Width & height property will not work, it will keep the span in line only -->
-<span class="inline-block"></span> <!-- We can give height and width to span -->
-<span class="block"></span> <!-- It will remain in line -->
+<span class="inline">Hello</span>
+<!-- Width & height property will not work, it will keep the span in line only -->
+<span class="inline-block"></span>
+<!-- We can give height and width to span -->
+<span class="block"></span>
+<!-- It will remain in line -->
 ```
 
 # Tailwind CSS Notes:-
@@ -325,3 +335,27 @@ if parent div is relative and child div is absolute then it will not go out of p
 
 <span class="block> </span> -> it will remain in line
 
+## Background images :
+
+<div class="bg-cover bg-no-repeat bg-center">
+
+## shadows :
+
+// shadow outside div
+
+<div class="shadow-md">
+<div class="shadow-lg">
+<div class="shadow-xl">
+<div class="shadow-2xl">
+
+// shadow inside div
+
+<div class="shadow-inner">
+
+// colors for shadow
+
+<div class="shadow-lg shadow-teal-300/20(//opacity)">
+
+## Gradients : 
+
+<div class="bg-gradient-to-r from-pink-100 to-red-500">
